@@ -1,99 +1,46 @@
 ---
 type: "page"
-title: "QGIS User Conference 2025"
-subtitle: "2-3 June 2025, Norrköping, Sweden"
+title: "QGIS User Group"
+subtitle: "Connecting QGIS users in our community"
 draft: false
 heroSize: "is-medium"
-heroImage: "/visualization_center.webp"
-heroLogo: "/uc25_logo_re_color.png"
-additionalLogo: "uc25_logo_re_color.png"
-HasBanner: true
-heroIsUserConference: true
-ButtonText: "Add to your Calendar"
-ButtonLink: "qgis-uc-2025.ics"
+heroImage: "/img/community.svg"
+heroLogo: "/img/logo.png"
+HasBanner: false
 sidebar: true
 ---
 
 {{< content-start >}}
 
-## Thank you!
+## Welcome to the QGIS User Group
 
-The QGIS User Conference 2025 has ended. We would like to thank all the participants, speakers, and sponsors for making this event a success!
-
-Missed the conference or specific presentations? Watch them [here](https://www.youtube.com/playlist?list=PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7)!
-
-![./images/20250603_151948_qgis_uc_2025_group_photo.jpeg](./images/20250603_151948_qgis_uc_2025_group_photo.jpeg)
-
+We are a community of QGIS users passionate about open-source geospatial technology. Our mission is to promote the use of QGIS, share knowledge, and support each other in our geospatial projects.
 
 {{< columns-start >}}
 {{< column-start >}}
 
-![](./images/20250602_090059.jpg)
+### What We Do
+
+- Organize regular meetups and events
+- Share best practices and use cases
+- Provide support for QGIS users at all levels
+- Contribute to the QGIS project
+- Network with geospatial professionals
 
 {{< column-end >}}
 {{< column-start >}}
 
-![](./images/20250602_210839.jpg)
+### Join Us
 
-{{< column-end >}}
-{{< column-start >}}
+Whether you're a beginner or an experienced QGIS user, everyone is welcome! Join our events, participate in discussions, and help grow the QGIS community.
 
-![](./images/20250605_113535.jpg)
+[See our upcoming events](/events/)
 
 {{< column-end >}}
 {{< columns-end >}}
 
-{{< columns-start >}}
-{{< column-start >}}
+## Get Involved
 
-![](./images/20250605_093323.jpg)
-
-{{< column-end >}}
-{{< column-start >}}
-
-![](./images/20250602_125447.jpg)
-
-{{< column-end >}}
-{{< column-start >}}
-
-![](./images/20250601_195116.jpg)
-
-{{< column-end >}}
-{{< columns-end >}}
-
-## Organizers & Sponsors
-{{< sponsors-simple >}}
-
-## Venue
-
-<div class="rounded">
-
-![Visualization Center C](./visualization_center.webp)
-
-</div>
-
-The event will be held at the [Visualization Center C](https://www.visualiseringscenter.se/en/), [Cnema](https://cnema.se/)
-and [Campus Norrköping](https://liu.se/en/article/campus-norrkoping) of [Linköping University](https://liu.se/en). These are
-situated in the heart of Norrköping, a city with a rich industrial history and beautiful water displays right outside
-the venues.
-
-
-{{< columns-start >}}
-{{< column-start>}}
-
-![](./globe_c.png)
-
-{{< column-end >}}
-{{< column-start>}}
-
-![](./visualcity_ostlanken-2000x1500.webp)
-
-{{< column-end >}}
-{{< column-start>}}
-
-![](./Domen-scaled.webp)
-
-{{< column-end >}}
-{{< columns-end >}}
+We welcome new members and contributors! Check out our [Rules](/rules/) page to learn about our community guidelines, and visit [Who we are](/who-we-are/) to meet our team.
 
 {{< content-end >}}

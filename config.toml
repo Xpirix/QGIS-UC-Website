@@ -1,7 +1,8 @@
 # May be overwritten in .github/workflows/github-pages.yml or other config files
-baseURL = 'https://uc2025.qgis.org/'
+# Update baseURL for your specific User Group deployment
+baseURL = 'https://usergroup.qgis.org/'
 languageCode = 'en-us'
-title = 'QGIS UC Website'
+title = 'QGIS User Group Template'
 theme = 'hugo-bulma-blocks-theme'
 # Default pagination.
 # Can override this when needed e.g. {{ range (.Paginator 5).Pages }}
@@ -142,44 +143,19 @@ sectionPagesMenu = 'main'
   weight = 10
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "Events"
+  url = "/events/"
   weight = 20
 
 [[menu.main]]
-  name = "Schedule"
-  url = "/schedule/"
+  name = "Who we are"
+  url = "/who-we-are/"
   weight = 30
 
 [[menu.main]]
-  name = "Activities"
-  url = "/activities/"
-  weight = 35
-
-[[menu.main]]
-  name = "Sponsors"
-  url = "/sponsors/"
+  name = "Rules"
+  url = "/rules/"
   weight = 40
-
-[[menu.main]]
-  name = "Attending"
-  url = "/attending/"
-  weight = 50
-
-[[menu.main]]
-  name = "Tickets"
-  url = "/tickets/"
-  weight = 60
-
-[[menu.main]]
-  name = "Apps"
-  url = "/apps/"
-  weight = 70
-
-[[menu.main]]
-  name = "Visual City"
-  url = "/visual-city/"
-  weight = 80
 
 [[menu.qgis_org]]
   name = "Project"

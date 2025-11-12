@@ -1,34 +1,13 @@
-# 🌐 QGIS User Conference Website [![DPG Badge](https://img.shields.io/badge/Verified-DPG-3333AB?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMSAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjIwMDggMjEuMzY3OEwxMC4xNzM2IDE4LjAxMjRMMTEuNTIxOSAxNi40MDAzTDEzLjk5MjggMTguNDU5TDE5LjYyNjkgMTIuMjExMUwyMS4xOTA5IDEzLjYxNkwxNC4yMDA4IDIxLjM2NzhaTTI0LjYyNDEgOS4zNTEyN0wyNC44MDcxIDMuMDcyOTdMMTguODgxIDUuMTg2NjJMMTUuMzMxNCAtMi4zMzA4MmUtMDVMMTEuNzgyMSA1LjE4NjYyTDUuODU2MDEgMy4wNzI5N0w2LjAzOTA2IDkuMzUxMjdMMCAxMS4xMTc3TDMuODQ1MjEgMTYuMDg5NUwwIDIxLjA2MTJMNi4wMzkwNiAyMi44Mjc3TDUuODU2MDEgMjkuMTA2TDExLjc4MjEgMjYuOTkyM0wxNS4zMzE0IDMyLjE3OUwxOC44ODEgMjYuOTkyM0wyNC44MDcxIDI5LjEwNkwyNC42MjQxIDIyLjgyNzdMMzAuNjYzMSAyMS4wNjEyTDI2LjgxNzYgMTYuMDg5NUwzMC42NjMxIDExLjExNzdMMjQuNjI0MSA5LjM1MTI3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://blog.qgis.org/2025/02/08/qgis-recognized-as-digital-public-good/)
+# 🌐 QGIS User Group Website Template
 
-![Screenshot](./img/qgis-uc-website.webp)
-
-
-> ## 👋 Welcome to the User Conference Website!
+> ## 👋 Welcome to the QGIS User Group Website Template!
 >
-> **This repository hosts the source code for the official User Conference Website:**  
-> 🌍 [https://uc2025.qgis.org](https://uc2025.qgis.org)
+> **This repository provides a template for creating QGIS User Group websites:**  
+> 🌍 Hosted as subdomains of qgis.org (e.g., `yourgroup.qgis.org`)
 >
-> Here you'll find everything you need to **build, develop, and contribute** to the User Conference Website.
->
-> ### ⚠️ Note on Subdomain Websites
->
-> **This repository is _only_ for the main User Conference Website ([uc2025.qgis.org](https://uc2025.qgis.org)).**
->
-> If you are looking for the source code or want to contribute to QGIS subdomain websites, please visit their respective repositories below.  
-> Each subdomain has its own codebase and contribution process:
->
-> - [plugins.qgis.org](https://plugins.qgis.org) ([GitHub: QGIS-Plugins-Website](https://github.com/qgis/QGIS-Plugins-Website)) – QGIS Plugins Repository
-> - [hub.qgis.org](https://hub.qgis.org) ([GitHub: QGIS-Hub-Website](https://github.com/qgis/QGIS-Hub-Website)) – QGIS Resources Hub
-> - [feed.qgis.org](https://feed.qgis.org) ([GitHub: qgis-feed](https://github.com/qgis/qgis-feed)) – QGIS Feed Manager
-> - [qgis.org](https://qgis.org) ([GitHub: QGIS-Website](https://github.com/qgis/QGIS-Website)) – QGIS Main Website
-> - [members.qgis.org](https://members.qgis.org) ([GitHub: QGIS-Members-Website](https://github.com/qgis/QGIS-Members-Website)) – QGIS Sustaining Members Portal
-> - [certification.qgis.org](https://certification.qgis.org) ([GitHub: QGIS-Certification-Website](https://github.com/qgis/QGIS-Certification-Website)) – QGIS Certification Programme Platform
-> - [changelog.qgis.org](https://changelog.qgis.org) ([GitHub: QGIS-Changelog-Website](https://github.com/qgis/QGIS-Changelog-Website)) – QGIS Changelog Manager
-> - [planet.qgis.org](https://planet.qgis.org) ([GitHub: QGIS-Planet-Website](https://github.com/qgis/QGIS-Planet-Website)) – QGIS Planet Website
+> Here you'll find everything you need to **build, develop, and customize** your User Group Website.
 
 ![-----------------------------------------------------](./img/green-gradient.png)
-
-
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> 📖 Table of Contents</h2>
@@ -37,14 +16,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#-project-overview"> 🚀 Project Overview </a></li>
-    <li><a href="#-qa-status"> 🚥 QA Status </a></li>
-    <li><a href="#-license"> 📜 License </a></li>
+    <li><a href="#-getting-started"> 🎯 Getting Started </a></li>
+    <li><a href="#-setting-up-your-user-group-site"> 🛠️ Setting Up Your User Group Site </a></li>
     <li><a href="#-folder-structure"> 📂 Folder Structure </a></li>
-    <li><a href="#-using-ai-large-language-models"> 🤖 Using 'AI' (Large Language Models) </a></li>
+    <li><a href="#-customizing-your-site"> ✏️ Customizing Your Site </a></li>
+    <li><a href="#-deployment"> 🚀 Deployment </a></li>
+    <li><a href="#-license"> 📜 License </a></li>
     <li><a href="#-using-the-nix-shell"> 🧊 Using the Nix Shell </a></li>
     <li><a href="#-contributing"> ✨ Contributing </a></li>
-    <li><a href="#-have-questions"> 🙋 Have Questions? </a></li>
-    <li><a href="#-contributors"> 🧑‍💻👩‍💻 Contributors </a></li>
   </ol>
 </details>
 
@@ -52,75 +31,216 @@
 
 ## 🚀 Project Overview
 
-![Overview](./img/uc-qgis-org.gif)
+This template is designed for QGIS User Groups to quickly set up a professional website with:
+
+- **Home page** - Welcome visitors and introduce your group
+- **Events page** - List upcoming and past events
+- **Who we are page** - Introduce your team and members
+- **Rules page** - Community guidelines and code of conduct
+
+The template uses Hugo static site generator with a clean, responsive design that maintains consistency with the QGIS ecosystem.
 
 ![-----------------------------------------------------](./img/green-gradient.png)
 
+## 🎯 Getting Started
 
-## 🚥 QA Status
+### Prerequisites
 
-### 🪪 Badges
-| Badge | Description |
-|-------|-------------|
-| [![E2E Tests](https://github.com/qgis/QGIS-UC-Website/actions/workflows/playwright-e2e.yml/badge.svg)](https://github.com/qgis/QGIS-UC-Website/actions/workflows/playwright-e2e.yml) | End-to-end tests status (Playwright) |
-| [![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-UC-Website/actions/workflows/github-pages.yml/badge.svg)](https://github.com/qgis/QGIS-UC-Website/actions/workflows/github-pages.yml) | Deployment status to GitHub Pages |
-| ![Website Status](https://img.shields.io/website-up-down-green-red/https/uc2025.qgis.org.svg) | Website availability status |
-| ![License](https://img.shields.io/github/license/qgis/QGIS-UC-Website.svg) | Repository license |
-| ![](https://img.shields.io/github/issues/qgis/QGIS-UC-Website.svg) | Open issues count |
-| ![](https://img.shields.io/github/issues-closed/qgis/QGIS-UC-Website.svg) | Closed issues count |
-| ![](https://img.shields.io/github/issues-pr/qgis/QGIS-UC-Website.svg) | Open pull requests count |
-| ![](https://img.shields.io/github/issues-pr-closed/qgis/QGIS-UC-Website.svg) | Closed pull requests count |
+- Hugo (version 0.139.0 or higher)
+- Git
+- A text editor
 
-### ⭐️ Project Stars
+### Local Development
 
-![Stars](https://starchart.cc/qgis/QGIS-UC-Website.svg)
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/QGIS/QGIS-UserGroup-Template.git
+   cd QGIS-UserGroup-Template
+   ```
+
+2. **Run the development server:**
+   ```bash
+   make hugo-run-dev
+   ```
+   Or directly with Hugo:
+   ```bash
+   hugo server --config config.toml,config/config.dev.toml
+   ```
+
+3. **View your site:**
+   Open your browser to `http://localhost:1313`
 
 ![-----------------------------------------------------](./img/green-gradient.png)
 
+## 🛠️ Setting Up Your User Group Site
+
+### Step 1: Request a Branch
+
+To set up a website for your QGIS User Group:
+
+1. **Contact the QGIS Team:**
+   - Open an issue in the [QGIS main repository](https://github.com/qgis/QGIS) or
+   - Email the QGIS community team at community@qgis.org
+   - Specify your user group name and preferred subdomain (e.g., `sweden.qgis.org`)
+
+2. **Provide Information:**
+   - User Group name
+   - Country/region
+   - Preferred subdomain name
+   - Contact person(s) with GitHub usernames
+
+### Step 2: Branch Creation and Permissions
+
+The QGIS team will:
+
+1. Create a dedicated branch for your user group (e.g., `usergroup/sweden`)
+2. Set up branch protection rules
+3. Grant you write permissions to your branch
+4. Configure GitHub Actions for automated deployment
+
+### Step 3: Configure Your Branch
+
+Once your branch is ready:
+
+1. **Clone and checkout your branch:**
+   ```bash
+   git clone https://github.com/qgis/QGIS-UserGroup-Template.git
+   cd QGIS-UserGroup-Template
+   git checkout usergroup/your-group-name
+   ```
+
+2. **Update configuration:**
+   - Edit `config.toml` with your group details
+   - Update the `baseURL` to match your subdomain
+   - Customize the title and other settings
+
+3. **Customize content:**
+   - Edit content pages in the `content/` directory
+   - Add your team information
+   - Update events and rules
+   - Replace placeholder images
+
+4. **Commit and push:**
+   ```bash
+   git add .
+   git commit -m "Initial customization for [Your Group Name]"
+   git push origin usergroup/your-group-name
+   ```
+
+### Step 4: Request Deployment
+
+After customizing your site:
+
+1. **Request subdomain deployment:**
+   - Contact the QGIS team to request deployment
+   - Provide your desired subdomain (e.g., `sweden.qgis.org`)
+   
+2. **The QGIS team will:**
+   - Configure the subdomain on qgis.org
+   - Set up automated deployment from your branch
+   - Provide you with the live URL
+
+### Managing Your Branch
+
+You have full control over your branch:
+
+- **Push changes:** Changes pushed to your branch will automatically deploy (if GitHub Actions is configured)
+- **Collaborate:** Add other team members as collaborators on your branch
+- **Keep updated:** Periodically merge updates from the main template branch to get new features
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+## 📂 Folder Structure
+
+```plaintext
+QGIS-UserGroup-Template/
+  ├── ⚙️  config/           # Hugo configuration files
+  ├── 📄  content/          # Markdown content files (pages, posts)
+  ├── 🖼️  img/              # Images files used by this README
+  ├── 🧩  layouts/          # Hugo templates and partials
+  ├── 📦  public/           # Generated site output (after `hugo` build)
+  ├── 🗂️  resources/        # Hugo-generated resources (e.g., minified assets)
+  ├── 📄  static/           # Static files served as-is (e.g., favicon, images)
+  ├── 🎨  themes/           # Hugo themes
+  ├── ⚙️  config.toml       # Main Hugo configuration file
+  ├── 🤝  CONTRIBUTING.md   # Contribution guidelines
+  ├── 📜  LICENSE           # Project license
+  ├── ⚙️  Makefile          # Build/Deployment automation commands
+  └── 📖  README.md         # This file
+```
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+## ✏️ Customizing Your Site
+
+### Content Pages
+
+All content is in the `content/` directory:
+
+- `_index.md` - Home page
+- `events.md` - Events listing
+- `who-we-are.md` - Team and member information
+- `rules.md` - Community guidelines
+
+Edit these files to customize your content. The files use Markdown with Hugo shortcodes.
+
+### Configuration
+
+Edit `config.toml` to customize:
+
+- Site title and URL
+- Menu structure
+- Colors and branding
+- Social media links
+- Analytics settings
+
+### Images and Assets
+
+- Place images in `static/img/` or `content/`
+- Update hero images in page front matter
+- Replace the logo files
+- Add your own favicon
+
+### Styling
+
+The template uses the `hugo-bulma-blocks-theme` which provides:
+
+- Responsive design
+- Clean, modern look
+- Customizable colors
+- Reusable content blocks
+
+Colors and fonts can be customized in `config.toml` under `[params]`.
+
+![-----------------------------------------------------](./img/green-gradient.png)
+
+## 🚀 Deployment
+
+### Automatic Deployment (Recommended)
+
+If your branch is configured with GitHub Actions:
+
+1. Push changes to your branch
+2. GitHub Actions automatically builds the site
+3. The site deploys to your subdomain
+
+### Manual Deployment
+
+Build the site manually:
+
+```bash
+make build
+```
+
+The built site will be in the `public/` directory.
+
+![-----------------------------------------------------](./img/green-gradient.png)
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ![-----------------------------------------------------](./img/green-gradient.png)
-
-
-## 📂 Folder Structure
-
-```plaintext
-QGIS-UC-Website/
-  ├── ⚙️  config/           # Hugo configuration files
-  ├── 📄  content/          # Markdown content files (pages, posts)
-  ├── 🖼️  img/              # Images files used by this README
-  ├── 🧩  layouts/          # Hugo templates and partials
-  ├── 🧪  playwright/       # Playwright end-to-end test scripts
-  ├── 📦  public/           # Generated site output (after `hugo` build)
-  ├── 🗂️  resources/        # Hugo-generated resources (e.g., minified assets)
-  ├── 🛠️  scripts/          # Utility scripts for development/maintenance/harvesting
-  ├── 📄  static/           # Static files served as-is (e.g., favicon, robots.txt)
-  ├── 🎨  themes/           # Hugo themes
-  ├── ⚙️  config.toml       # Main Hugo configuration file
-  ├── 🤝  CONTRIBUTING.md   # Contribution guidelines
-  ├── 📜  LICENSE           # Project license
-  ├── ⚙️  Makefile          # Build/Deployment automation commands
-  ├── 📖  README.md         # Project overview and instructions
-  ├── 🐚  shell.nix         # Nix shell environment definition
-  └── 💡  vscode.sh*        # VSCode helper script for Nix development environment
-```
-
-
-![-----------------------------------------------------](./img/green-gradient.png)
-
-## 🤖 Using 'AI' (Large Language Models)
-
-We are fine with using LLM's and Generative Machine Learning to act as general assistants, but the following three guidelines should be followed:
-
-1. **Repeatability:** Although we understand that repeatability is not possible generally, whenever you are verbatim using LLM or Generative Machine Learning outputs in this project, you **must** also provide the prompt that you used to generate the resource.
-2. **Declaration:** Sharing the prompt above is implicit declaration that a machine learning assistant was used. If it is not obvious that a piece of work was generated, include the robot (🤖) icon next to a code snippet or text snippet.
-3. **Validation:** Outputs generated by a virtual assistant should always be validated by a human and you, as contributor, take ultimate responsibility for the correct functionality of any code and the correct expression in any text or media you submit to this project.
-
-![-----------------------------------------------------](./img/green-gradient.png)
-
 
 ## 🧊 Using the Nix Shell
 
@@ -130,22 +250,29 @@ Please refer to the [Nix section](./CONTRIBUTING.md#nix) in [CONTRIBUTING.md](./
 
 ## ✨ Contributing
 
-We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started.
+We welcome contributions to improve this template! 
+
+- **For template improvements:** Submit PRs to the main branch
+- **For your user group site:** Work on your dedicated branch
+
+Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ![-----------------------------------------------------](./img/green-gradient.png)
 
 ## 🙋 Have Questions?
 
-Have questions or feedback? Feel free to open an issue or submit a Pull Request!  
+- **Template questions:** Open an issue in this repository
+- **User group setup:** Contact community@qgis.org
+- **General QGIS questions:** Visit [qgis.org](https://qgis.org)
 
 ![-----------------------------------------------------](./img/green-gradient.png)
+
 ## 🧑‍💻👩‍💻 Contributors
 
-- [Tim Sutton](https://github.com/timlinux) – Original author and lead maintainer of the QGIS Website project
-- [Kontur Team](https://www.kontur.io) – Responsible for the design and development of the current website version
-- [Lova Andriarimalala](https://github.com/Xpirix) – Core developer and ongoing maintainer
-- [QGIS Contributors](https://github.com/qgis/QGIS-UC-Website/graphs/contributors) – See the full list of amazing contributors who have helped make this website possible.
+- [Tim Sutton](https://github.com/timlinux) – Original QGIS Website author
+- [Lova Andriarimalala](https://github.com/Xpirix) – Template developer
+- [QGIS Contributors](https://github.com/qgis/QGIS-UserGroup-Template/graphs/contributors) – Community contributors
 
 ![-----------------------------------------------------](./img/green-gradient.png)
 
-Made with ❤️ by Tim Sutton (@timlinux), Lova Andriarimalala (@Xpirix) and QGIS Contributors.
+Made with ❤️ by the QGIS Community.
