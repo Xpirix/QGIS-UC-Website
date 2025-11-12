@@ -1,7 +1,5 @@
 # 🌐 QGIS User Group Website Template
 
-![Screenshot](./img/qgis-usergroup-template.webp)
-
 > ## 👋 Welcome to the QGIS User Group Website Template!
 >
 > **This repository provides a template for creating QGIS User Group websites:**  
